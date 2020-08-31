@@ -1,0 +1,2 @@
+#!/bin/bash
+apt-get install aptitude clamav clamav-daemon net-tools lsof python-minimal stress -y
