@@ -1,2 +1,5 @@
-touch $HOME/test
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1q6cbKFNc8vJC7CE1AblJhRxVc1dNwok8' -O $HOME/CF_ejecuta_http_aleatorio.sh
+mkdir -p $HOME/Scripts/Linux_Terminal_Master/U4/
+#UNIDAD 4
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1q6cbKFNc8vJC7CE1AblJhRxVc1dNwok8' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_ejecuta_http_aleatorio.sh
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1MB6kwhv5nlYDldSarFOelFICSm6SFVvl' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_consume_50%_de_RAM.sh
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1acRtAdRuqGkueSdtgD4EF63c05XfDrhf' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_genera_archivo_pesado.sh
