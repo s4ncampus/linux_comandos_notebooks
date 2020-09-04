@@ -1,1 +1,2 @@
 touch $HOME/test
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1q6cbKFNc8vJC7CE1AblJhRxVc1dNwok8' -O $HOME/CF_ejecuta_http_aleatorio.sh
