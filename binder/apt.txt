@@ -3,3 +3,4 @@ stress
 procps
 net-tools
 lsof
+dmidecode
