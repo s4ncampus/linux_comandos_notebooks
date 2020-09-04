@@ -1,3 +1,3 @@
-mkdir -p $HOME/prueba
+sudo mkdir -p $HOME/prueba
 mkdir /hola
 touch /prueba
