@@ -1,7 +1,3 @@
-#!/bin/bash
-
-set -e
-
-TEST="hola"
-
 mkdir -p $HOME/prueba
+mkdir /hola
+touch /prueba
