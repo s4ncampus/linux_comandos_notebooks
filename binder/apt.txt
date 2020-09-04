@@ -1,3 +1,5 @@
 clamav
 stress
-w3m
+procps
+net-tools
+lsof
