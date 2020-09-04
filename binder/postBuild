@@ -1,3 +1,1 @@
-sudo mkdir -p $HOME/prueba
-mkdir /hola
-touch /prueba
+apt-get install w3m
