@@ -6,3 +6,4 @@ procps
 net-tools
 lsof
 dmidecode
+sudo
