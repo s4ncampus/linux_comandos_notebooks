@@ -1,1 +1,3 @@
 clamav
+stress
+w3m
