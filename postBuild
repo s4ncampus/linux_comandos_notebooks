@@ -1,2 +1,7 @@
 #!/bin/bash
-touch /prueba
+
+set -e
+
+TEST="hola"
+
+mkdir -p $HOME/prueba
