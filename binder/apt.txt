@@ -1,4 +1,5 @@
 clamav
+clamav-freshclam
 stress
 procps
 net-tools
