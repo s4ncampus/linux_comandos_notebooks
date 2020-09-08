@@ -5,4 +5,6 @@ mkdir -p $HOME/Validators/Linux_Terminal_Master/U4/
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1q6cbKFNc8vJC7CE1AblJhRxVc1dNwok8' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_ejecuta_http_aleatorio.sh
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1MB6kwhv5nlYDldSarFOelFICSm6SFVvl' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_consume_50%_de_RAM.sh
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1acRtAdRuqGkueSdtgD4EF63c05XfDrhf' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_genera_archivo_pesado.sh
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1DriW6uSYYUKwnnkEWkBBnMGau_YmYsaY' -O $HOME/Scripts/Linux_Terminal_Master/U4/CF_valida_archivo_pesado.sh
 wget http://database.clamav.net/main.cvd -O $HOME/Resources/Linux_Terminal_Master/U4/firmasdevirus.cvd
+
