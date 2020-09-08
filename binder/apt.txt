@@ -7,3 +7,4 @@ net-tools
 lsof
 dmidecode
 sudo
+cracklib
