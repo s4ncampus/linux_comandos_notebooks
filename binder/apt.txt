@@ -1,3 +1,4 @@
 nodejs
 hydra
+kpcli
 keepassxc
