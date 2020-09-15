@@ -2,3 +2,4 @@ nodejs
 hydra
 passwordsafe
 kpcli
+titan
