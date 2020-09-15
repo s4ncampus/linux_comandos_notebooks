@@ -1,3 +1,2 @@
-libcrack2
-cracklib-runtime
 nodejs
+hydra
