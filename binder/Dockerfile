@@ -5,7 +5,6 @@ RUN pip install --no-cache --upgrade pip && \
 
 RUN apt-get update -y
 RUN apt-get install -y tree
-RUN useradd -ms /bin/bash myuser
 
 # create user with a home directory
 ARG NB_USER
@@ -17,5 +16,6 @@ RUN adduser --disabled-password \
     --gecos "Default user" \
     --uid ${NB_UID} \
     ${NB_USER}
-WORKDIR ${HOME}
-USER ${USER}
+#WORKDIR ${HOME}
+#USER ${USER}
+RUN useradd -ms /bin/bash myuser
