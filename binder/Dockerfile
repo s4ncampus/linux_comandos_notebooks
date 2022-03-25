@@ -17,5 +17,6 @@ RUN pip install calysto_bash
 COPY . ${HOME}
 RUN userdel -r ${NB_USER}
 RUN adduser --disabled-password --gecos "" ${NB_USER}
-RUN echo "${NB_USER} ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/appuser && chmod 0440 /etc/sudoers.d/appuser
+RUN echo "${NB_USER} ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/${NB_USER} && chmod 0440 /etc/sudoers.d/${NB_USER}
 RUN chown -R ${NB_UID} ${HOME}
+RUN chmod -R 777 
