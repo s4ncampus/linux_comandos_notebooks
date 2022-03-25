@@ -15,7 +15,7 @@ RUN apt-get -y install nodejs \
                        systemd
 RUN pip install calysto_bash
 COPY . ${HOME}
-RUN userdel ${NB_USER}
+RUN userdel -r ${NB_USER}
 RUN adduser --disabled-password --gecos "" ${NB_USER}
 RUN echo "${NB_USER} ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/appuser && chmod 0440 /etc/sudoers.d/appuser
 RUN chown -R ${NB_UID} ${HOME}
