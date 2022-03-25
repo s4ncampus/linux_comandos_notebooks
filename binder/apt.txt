@@ -1,3 +1,4 @@
 nodejs
 sudo
 man
+iputils-ping
