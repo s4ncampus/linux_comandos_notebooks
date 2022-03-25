@@ -2,3 +2,4 @@ nodejs
 sudo
 man
 iputils-ping
+dnsutils
