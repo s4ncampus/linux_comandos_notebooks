@@ -17,3 +17,6 @@ RUN pip install calysto_bash
 COPY . ${HOME}
 RUN chown -R ${NB_UID} ${HOME}
 RUN echo "${NB_USER} ALL = (ALL) NOPASSWD: /usr/sbin/useradd,/usr/sbin/groupadd" >>  /etc/sudoers
+RUN adduser --disabled-password --gecos '' ${NB_USER}
+RUN adduser ${NB_USER} sudo
+RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
