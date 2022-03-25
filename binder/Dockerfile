@@ -16,4 +16,4 @@ RUN apt-get -y install nodejs \
 RUN pip install calysto_bash
 COPY . ${HOME}
 RUN chown -R ${NB_UID} ${HOME}
-#USER ${NB_USER}
+USER root
