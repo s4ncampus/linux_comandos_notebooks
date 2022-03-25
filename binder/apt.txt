@@ -4,3 +4,4 @@ man
 iputils-ping
 dnsutils
 iproute2
+timedatectl
