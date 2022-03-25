@@ -6,8 +6,8 @@ RUN pip install --no-cache --upgrade pip && \
 # create user with a home directory
 ARG NB_USER
 ARG NB_UID
-ENV USER ${NB_USER}
-ENV HOME /home/${NB_USER}
+ENV USER joyvan
+ENV HOME /home/joyvan
 
 RUN adduser --disabled-password \
     --gecos "Default user" \
