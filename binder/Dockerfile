@@ -16,4 +16,5 @@ RUN apt-get -y install nodejs \
 RUN pip install calysto_bash
 COPY . ${HOME}
 RUN chown -R ${NB_UID} ${HOME}
+RUN mkdir /home/${NB_USER}/.respuestas/
 #USER ${NB_USER}
