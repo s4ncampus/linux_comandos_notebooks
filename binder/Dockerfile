@@ -15,6 +15,7 @@ RUN apt-get -y install nodejs \
                        systemd
 RUN pip install calysto_bash
 COPY . ${HOME}
+echo "RESPUESTA" > ~/.respuestas/respuesta3-6.txt
+RUN chmod -R 777 ~/.respuestas/
 RUN chown -R ${NB_UID} ${HOME}
-RUN mkdir /home/${NB_USER}/.respuestas/
 #USER ${NB_USER}
