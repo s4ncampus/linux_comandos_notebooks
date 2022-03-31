@@ -1,5 +1,5 @@
 #!/bin/bash
-RESPUESTA=$(cat /tmp/respuesta3-6.txt 2>/dev/null)
+RESPUESTA=$(cat ~/.respuestas/respuesta3-6.txt 2>/dev/null)
   if [ -z "$RESPUESTA" ]
   then
     echo "Introduce un valor e intenta de nuevo."
