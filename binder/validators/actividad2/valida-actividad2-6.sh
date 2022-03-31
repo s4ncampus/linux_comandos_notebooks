@@ -21,12 +21,12 @@ RESPUESTA=$(cat ~/.respuestas/respuesta2-6.txt 2>/dev/null)
     echo "usuario1: La respuesta de 'whoami' es 'usuario1'"
     echo ""
     echo "2. id: Imprime el id del usuario"
-    echo "1001: La respuesta de 'id', el cual es el id del usuario 'usuario1' '1001'"
+    echo "1001: La respuesta del comando 'id', el cual es el id del usuario 'usuario1' '1001'"
     echo ""
     echo "3. su usuario2: Nos convertimos en el usuario 'usuario2'"
     echo ""
     echo "4. id: Imprime el id del usuario"
-    echo "1002: La respuesta de 'id', el cual es el id del usuario 'usuario2'"
+    echo "1002: La respuesta del comando 'id', el cual es el id del usuario 'usuario2' '1002'"
   else
     echo "Fallaste, revisa bien los comandos y cambia el número por la respuesta correcta."
   fi
