@@ -3,7 +3,7 @@ RESPUESTA=$(cat ~/.respuestas/respuesta2-6.txt 2>/dev/null)
 CORRECTA="2"
 if [ -z "$RESPUESTA" ]
 then
-  echo "Introduce un valor e intenta de nuevo."
+  echo "Recuerda introducir un valor valido en el campo 'RESPUESTA' y ejecuta de nuevo."
   echo ""
 else
   if [ $RESPUESTA == "RESPUESTA" ]
