@@ -1,5 +1,5 @@
 #!/bin/bash
-RESPUESTA=$(cat ~/.respuestas/respuesta2-6.txt 2>/dev/null)
+RESPUESTA=$(cat ~/.respuestas/respuesta3-6.txt 2>/dev/null)
 CORRECTA="1"
 if [ -z "$RESPUESTA" ]
 then
