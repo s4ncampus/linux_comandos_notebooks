@@ -16,7 +16,6 @@ RUN apt-get -y install nodejs \
 RUN pip install calysto_bash
 COPY . ${HOME}
 RUN mkdir ${HOME}/.respuestas/
-RUN chmod -R 777 ./binder/validators/
 RUN chmod -R 777 ~/.respuestas/
 RUN chown -R ${NB_UID} ${HOME}
 #USER ${NB_USER}
